@@ -1,0 +1,18 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name ImageutilityBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "com.alcoapps.imageutility.ImageutilityModule.h"
+#include "com.alcoapps.imageutility.ExampleProxy.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+com.alcoapps.imageutility.ImageutilityModule, ::com::alcoapps::imageutility::ImageutilityModule::bindProxy, ::com::alcoapps::imageutility::ImageutilityModule::dispose
+com.alcoapps.imageutility.ExampleProxy, ::com::alcoapps::imageutility::imageutility::ExampleProxy::bindProxy, ::com::alcoapps::imageutility::imageutility::ExampleProxy::dispose
+%%

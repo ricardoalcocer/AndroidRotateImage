@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: My module
+author: Ricardo Alcocer
+license: Specify your license
+copyright: Copyright (c) 2014 by Your Company
+
+
+# these should not be edited
+name: imageutility
+moduleid: com.alcoapps.imageutility
+guid: e4f00f2c-8b61-4deb-87ba-7050f86aa022
+platform: android
+minsdk: 3.2.3.GA
