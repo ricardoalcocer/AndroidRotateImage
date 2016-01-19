@@ -9,7 +9,7 @@ author: Ricardo Alcocer
 license: Specify your license
 copyright: Copyright (c) 2014 by Your Company
 
-architectures: armeabi armeabi-v7a x86
+architectures: armeabi armeabi-v7a x86 x86_64
 
 # these should not be edited
 name: imageutility
